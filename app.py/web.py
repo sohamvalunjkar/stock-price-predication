@@ -7,7 +7,7 @@ import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
 
 # Streamlit title
-st.title('📈 Stock Price Prediction App')
+st.title('📈 Stock Price Prediction App💸💰📊📈')
 
 # Custom CSS for styling
 st.markdown("""
