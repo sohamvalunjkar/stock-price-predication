@@ -83,7 +83,7 @@ if 'fetch_data' in st.session_state and st.session_state.fetch_data:
     data_training_scaled = scaler.fit_transform(data_training)
 
     
-    model = load_model('traning model/keras_model.h5')
+    model = load_model('D:/machine learning/ml projects/stock price predication/traning model/keras_model.h5')
 
     
     past_100_days = data_training_scaled[-100:]
